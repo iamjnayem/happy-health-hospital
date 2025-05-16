@@ -9,9 +9,11 @@ const DoctorsSection = () => {
     <section id="doctors" className="section-padding bg-gray-50">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="heading-lg text-hospital-primary mb-4">Our Specialists</h2>
+          <h2 className="heading-lg text-hospital-primary mb-4">
+            আমাদের বিশেষজ্ঞগণ
+          </h2>
           <p className="text-gray-600">
-            Meet our team of experienced doctors who are dedicated to providing you with the highest quality healthcare.
+            আমাদের অভিজ্ঞ চিকিৎসক দলের সাথে পরিচিত হোন, যারা আপনাকে সর্বোচ্চ মানের স্বাস্থ্যসেবা প্রদান করতে প্রতিশ্রুতিবদ্ধ।
           </p>
         </div>
         
@@ -26,7 +28,7 @@ const DoctorsSection = () => {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
-                  <p className="text-white text-sm">Available: {doctor.available}</p>
+                  <p className="text-white text-sm">আজকে বসবেন: {doctor.available}</p>
                 </div>
               </div>
               
@@ -35,7 +37,7 @@ const DoctorsSection = () => {
                 <p className="text-hospital-primary font-medium mb-2">{doctor.specialty}</p>
                 <div className="border-t pt-3 mt-3 text-sm text-gray-600">
                   <p className="mb-1">{doctor.education}</p>
-                  <p>{doctor.experience} experience</p>
+                  <p>{doctor.experience} বছরের অভিজ্ঞতা</p>
                 </div>
               </CardContent>
               
@@ -44,7 +46,7 @@ const DoctorsSection = () => {
                   variant="outline" 
                   className="w-full border-hospital-primary text-hospital-primary hover:bg-hospital-primary hover:text-white"
                 >
-                  Book Appointment
+                  অ্যাপয়েন্টমেন্ট বুক করুন
                 </Button>
               </CardFooter>
             </Card>
@@ -53,7 +55,7 @@ const DoctorsSection = () => {
         
         <div className="text-center mt-12">
           <Button variant="link" className="text-hospital-primary text-lg">
-            View All Doctors
+            সব ডাক্তার দেখুন
           </Button>
         </div>
       </div>

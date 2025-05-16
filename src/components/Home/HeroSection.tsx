@@ -25,10 +25,10 @@ const HeroSection = () => {
           {/* Text Content */}
           <div className="space-y-6 animate-fade-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Your Health Is Our <span className="text-hospital-accent">Priority</span>
+              আপনার স্বাস্থ্য আমাদের <span className="text-hospital-accent">প্রাধান্য</span>
             </h1>
             <p className="text-lg md:text-xl opacity-90 max-w-lg">
-              Welcome to {hospitalInfo.name}, where we provide exceptional healthcare services with compassion and expertise.
+              {hospitalInfo.name} এ আপনাকে স্বাগতম, যেখানে আমরা সহানুভূতি ও দক্ষতার সাথে সর্বোত্তম স্বাস্থ্যসেবা প্রদান করি।
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
@@ -36,14 +36,14 @@ const HeroSection = () => {
                 size="lg"
                 onClick={() => setShowAppointment(true)}
               >
-                Book Appointment
+                অ্যাপয়েন্টমেন্ট বুক করুন
               </Button>
               <Button 
                 variant="outline" 
-                className="border-white text-white hover:bg-white/20" 
+                className="border-white text-hospital-primary hover:bg-white/20" 
                 size="lg"
               >
-                Our Services
+                আমাদের সেবা
                 <ChevronRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
@@ -51,20 +51,35 @@ const HeroSection = () => {
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6">
               <div className="text-center p-3 bg-white/10 rounded-lg backdrop-blur-sm">
-                <div className="text-2xl md:text-3xl font-bold">35+</div>
-                <div className="text-sm opacity-90">Years of Experience</div>
+                <div className="text-2xl md:text-3xl font-bold">
+                  ৩৫+
+                </div>
+                <div className="text-sm opacity-90">
+                  বছরের অভিজ্ঞতা</div>
               </div>
               <div className="text-center p-3 bg-white/10 rounded-lg backdrop-blur-sm">
-                <div className="text-2xl md:text-3xl font-bold">200+</div>
-                <div className="text-sm opacity-90">Doctors</div>
+                <div className="text-2xl md:text-3xl font-bold">
+                  ২০০+
+                </div>
+                <div className="text-sm opacity-90">
+                  ডাক্তার
+                </div>
               </div>
               <div className="text-center p-3 bg-white/10 rounded-lg backdrop-blur-sm">
-                <div className="text-2xl md:text-3xl font-bold">50k+</div>
-                <div className="text-sm opacity-90">Happy Patients</div>
+                <div className="text-2xl md:text-3xl font-bold">
+                  ৫০,০০০+
+                </div>
+                <div className="text-sm opacity-90">
+                  সুখী রোগী
+                </div>
               </div>
               <div className="text-center p-3 bg-white/10 rounded-lg backdrop-blur-sm">
-                <div className="text-2xl md:text-3xl font-bold">98%</div>
-                <div className="text-sm opacity-90">Satisfaction Rate</div>
+                <div className="text-2xl md:text-3xl font-bold">
+                  ৯৮%
+                </div>
+                <div className="text-sm opacity-90">
+                  সন্তুষ্টির হার
+                </div>
               </div>
             </div>
           </div>
