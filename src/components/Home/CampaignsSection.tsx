@@ -11,9 +11,11 @@ const CampaignsSection = () => {
     <section className="section-padding bg-gray-50">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="heading-lg text-hospital-primary mb-4">Health Campaigns & Offers</h2>
+          <h2 className="heading-lg text-hospital-primary mb-4">
+            স্বাস্থ্য ক্যাম্পেইন ও অফারসমূহ
+          </h2>
           <p className="text-gray-600">
-            Take advantage of our special health campaigns, promotions, and offers designed to make quality healthcare more accessible.
+            আমাদের বিশেষ স্বাস্থ্য ক্যাম্পেইন, প্রোমোশন ও অফারসমূহের সুবিধা নিন—উন্নতমানের স্বাস্থ্যসেবা আরও সহজলভ্য করতে আমরা প্রতিশ্রুতিবদ্ধ।
           </p>
         </div>
         
@@ -47,7 +49,7 @@ const CampaignsSection = () => {
                   variant="outline" 
                   className="w-full border-hospital-primary text-hospital-primary hover:bg-hospital-primary hover:text-white"
                 >
-                  Learn More
+                  আরও জানুন
                 </Button>
               </CardFooter>
             </Card>
