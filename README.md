@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# Happy Health Hospital
 
-## Project info
+A comprehensive hospital management system designed to streamline operations, improve patient care, and enhance administrative efficiency.
 
-**URL**: https://lovable.dev/projects/27d934c1-b6fe-4b56-a07e-0e32cac4bca3
+## Features
 
-## How can I edit this code?
+- Public website for Happy Health Hospital
+- Take Appointment Booking
+- Show Available Jobs for doctos
+- Show Hospital Related Info
 
-There are several ways of editing your application.
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/27d934c1-b6fe-4b56-a07e-0e32cac4bca3) and start prompting.
+- Frontend: [React.js]
+- Backend: [Fiber]
+- Database: [MySql]
+- Deployed: [Ngingx, VPS]
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/iamjnayem/happy-health-hospital.git
+    cd happy-health-hospital
+    ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. **Install dependencies:**
+    ```bash
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+    cd happy-health-hospital
+    npm install
+    ```
 
-Follow these steps:
+3. **Configure environment variables:**  
+    Copy `.env.example` to `.env` and update as needed.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+4. **Run the application:**
+    # Start frontend
+    npm start
+    ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Contributing
 
-# Step 3: Install the necessary dependencies.
-npm i
+Contributions are welcome! Please open issues or submit pull requests for improvements.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## License
 
-**Edit a file directly in GitHub**
+[MIT](LICENSE)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Contact
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/27d934c1-b6fe-4b56-a07e-0e32cac4bca3) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+For questions or support, contact [iamj.nayem@gmail.com].
