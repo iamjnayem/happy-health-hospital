@@ -17,42 +17,53 @@ const StatsSection = () => {
             <div className="text-4xl font-bold mb-2">
               <CounterAnimation target={statistics.patients} />
             </div>
-            <p className="text-hospital-accent">Patients Served</p>
+            <p className="text-hospital-accent">
+              পরিবেশনকৃত রোগী
+            </p>
           </div>
           
           <div className="text-center">
             <div className="text-4xl font-bold mb-2">
               <CounterAnimation target={statistics.doctors} />
             </div>
-            <p className="text-hospital-accent">Specialized Doctors</p>
+            <p className="text-hospital-accent">
+              বিশেষজ্ঞ ডাক্তার
+            </p>
           </div>
           
           <div className="text-center">
             <div className="text-4xl font-bold mb-2">
               <CounterAnimation target={statistics.beds} />
             </div>
-            <p className="text-hospital-accent">Hospital Beds</p>
+            <p className="text-hospital-accent">
+              হাসপাতালের বেড
+            </p>
           </div>
           
           <div className="text-center">
             <div className="text-4xl font-bold mb-2">
               <CounterAnimation target={statistics.satisfaction} />
             </div>
-            <p className="text-hospital-accent">Patient Satisfaction</p>
+            <p className="text-hospital-accent">
+              রোগীর সন্তুষ্টি
+            </p>
           </div>
           
           <div className="text-center">
             <div className="text-4xl font-bold mb-2">
               <CounterAnimation target={statistics.awards} />
             </div>
-            <p className="text-hospital-accent">Awards Won</p>
+            <p className="text-hospital-accent">
+              অর্জিত পুরস্কার
+            </p>
           </div>
           
           <div className="text-center">
             <div className="text-4xl font-bold mb-2">
               <CounterAnimation target={statistics.experience} />
             </div>
-            <p className="text-hospital-accent">Years of Experience</p>
+            <p className="text-hospital-accent">
+              অভিজ্ঞতার বছর</p>
           </div>
         </div>
       </div>
