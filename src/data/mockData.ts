@@ -1,11 +1,11 @@
 
 export const hospitalInfo = {
-  name: "MediCare Hospital",
-  tagline: "Your Health, Our Priority",
+  name: "হ্যাপি হেলথ হাসপাতাল",
+  tagline: "আপনার স্বাস্থ্য, আমাদের অগ্রাধিকার",
   logo: "/logo.svg",
-  address: "123 Healing Street, Wellness City, WC 12345",
-  phone: "+1 (555) 123-4567",
-  email: "info@medicarehospital.com",
+  address: "১২৩ শান্তি সড়ক, ধানমন্ডি, ঢাকা-১২০৯, বাংলাদেশ",
+  phone: "+৮৮০ ১৭১১-১২৩৪৫৬",
+  email: "info@happyhealthhospital.com",
   socialMedia: {
     facebook: "https://facebook.com/medicarehospital",
     twitter: "https://twitter.com/medicarehospital",
@@ -17,38 +17,38 @@ export const hospitalInfo = {
 export const departments = [
   {
     id: 1,
-    name: "Cardiology",
-    description: "Specialized care for heart-related conditions with advanced diagnostic and treatment options.",
+    name: "কার্ডিওলজি",
+    description: "হৃদয়-সংক্রান্ত সমস্যার জন্য বিশেষায়িত চিকিৎসা, উন্নত ডায়াগনস্টিক ও চিকিৎসা সুবিধাসহ।",
     icon: "heart"
   },
   {
     id: 2,
-    name: "Neurology",
-    description: "Comprehensive treatment for neurological disorders with cutting-edge technology and expert neurologists.",
+    name: "নিউরোলজি",
+    description: "স্নায়ুবিক রোগের জন্য আধুনিক প্রযুক্তি ও বিশেষজ্ঞ নিউরোলজিস্ট দ্বারা পূর্ণাঙ্গ চিকিৎসা।",
     icon: "brain"
   },
   {
     id: 3,
-    name: "Orthopedics",
-    description: "Complete care for bone and joint issues with specialized surgeons and rehabilitation programs.",
+    name: "অর্থোপেডিক্স",
+    description: "হাড় ও জয়েন্টের সমস্যার জন্য সম্পূর্ণ যত্ন, বিশেষজ্ঞ সার্জন ও পুনর্বাসন প্রোগ্রামের মাধ্যমে।",
     icon: "bone"
   },
   {
     id: 4,
-    name: "Pediatrics",
-    description: "Compassionate care for children of all ages with child-friendly facilities and specialized pediatricians.",
+    name: "পেডিয়াট্রিক্স",
+    description: "সব বয়সের শিশুদের জন্য সহানুভূতিশীল চিকিৎসা, শিশু-বান্ধব পরিবেশ ও বিশেষজ্ঞ শিশু চিকিৎসক দ্বারা।",
     icon: "baby"
   },
   {
     id: 5,
-    name: "Oncology",
-    description: "Comprehensive cancer care with advanced treatment options and supportive services.",
+    name: "অনকোলজি",
+    description: "ক্যান্সারের জন্য পূর্ণাঙ্গ চিকিৎসা, উন্নত চিকিৎসা পদ্ধতি ও সহায়তামূলক সেবাসহ।",
     icon: "activity"
   },
   {
     id: 6,
-    name: "Gynecology",
-    description: "Complete women's health services provided by experienced gynecologists in a comfortable environment.",
+    name: "গাইনোকোলজি",
+    description: "নারীস্বাস্থ্য বিষয়ক সম্পূর্ণ সেবা, অভিজ্ঞ গাইনোকোলজিস্ট দ্বারা আরামদায়ক পরিবেশে।",
     icon: "user"
   }
 ];
@@ -56,38 +56,38 @@ export const departments = [
 export const services = [
   {
     id: 1,
-    name: "Emergency Care",
-    description: "24/7 emergency services with rapid response teams and state-of-the-art equipment.",
+    name: "জরুরি সেবা",
+    description: "২৪/৭ জরুরি সেবা, দ্রুত প্রতিক্রিয়া টিম এবং আধুনিক যন্ত্রপাতি সহ।",
     icon: "ambulance"
   },
   {
     id: 2,
-    name: "Laboratory Services",
-    description: "Comprehensive diagnostic testing with quick and accurate results.",
+    name: "ল্যাবরেটরি সেবা",
+    description: "বিস্তৃত ডায়াগনস্টিক টেস্টিং, দ্রুত ও নির্ভুল ফলাফলের নিশ্চয়তা।",
     icon: "flask"
   },
   {
     id: 3,
-    name: "Radiology",
-    description: "Advanced imaging services including X-ray, MRI, CT scans, and ultrasound.",
+    name: "রেডিওলজি",
+    description: "উন্নত ইমেজিং সেবা যেমন এক্স-রে, এমআরআই, সিটি স্ক্যান ও আল্ট্রাসাউন্ড।",
     icon: "x-ray"
   },
   {
     id: 4,
-    name: "Surgery",
-    description: "State-of-the-art surgical facilities with experienced surgeons across specialties.",
+    name: "সার্জারি",
+    description: "আধুনিক সার্জিক্যাল সুবিধা ও অভিজ্ঞ সার্জন দ্বারা পরিচালিত বিভিন্ন অপারেশন।",
     icon: "scissors"
   },
   {
     id: 5,
-    name: "Physical Therapy",
-    description: "Comprehensive rehabilitation services to help patients regain mobility and function.",
+    name: "ফিজিক্যাল থেরাপি",
+    description: "রোগীদের চলাফেরা ও স্বাভাবিক কার্যক্ষমতা ফিরে পেতে পূর্ণাঙ্গ পুনর্বাসন সেবা।",
     icon: "activity"
   },
   {
     id: 6,
-    name: "Mental Health",
-    description: "Supportive mental health services with experienced psychiatrists and psychologists.",
+    name: "মানসিক স্বাস্থ্য",
+    description: "অভিজ্ঞ মনোরোগ বিশেষজ্ঞ ও মনোবিজ্ঞানীদের দ্বারা মানসিক স্বাস্থ্য সেবা।",
     icon: "brain"
   }
 ];
@@ -95,175 +95,175 @@ export const services = [
 export const doctors = [
   {
     id: 1,
-    name: "Dr. Sarah Johnson",
-    specialty: "Cardiology",
-    education: "MD, Harvard Medical School",
-    experience: "15+ years",
+    name: "ডা. সায়মা রহমান",
+    specialty: "কার্ডিওলজি",
+    education: "এমবিবিএস, এফসিপিএস (কার্ডিওলজি), বঙ্গবন্ধু শেখ মুজিব মেডিকেল বিশ্ববিদ্যালয়",
+    experience: "১৫+ বছর",
     image: "/doctors/doctor1.jpg",
-    available: "Mon, Wed, Fri"
+    available: "রবিবার, মঙ্গলবার, বৃহস্পতিবার"
   },
   {
     id: 2,
-    name: "Dr. Michael Chen",
-    specialty: "Neurology",
-    education: "MD, Johns Hopkins University",
-    experience: "12+ years",
+    name: "ডা. মাহমুদুল হাসান",
+    specialty: "নিউরোলজি",
+    education: "এমবিবিএস, এমডি (নিউরোলজি), ঢাকা মেডিকেল কলেজ",
+    experience: "১২+ বছর",
     image: "/doctors/doctor2.jpg",
-    available: "Tue, Thu, Sat"
+    available: "সোমবার, বুধবার, শনিবার"
   },
   {
     id: 3,
-    name: "Dr. Emily Rodriguez",
-    specialty: "Pediatrics",
-    education: "MD, Stanford University",
-    experience: "10+ years",
+    name: "ডা. ফারহানা ইসলাম",
+    specialty: "শিশু বিভাগ",
+    education: "এমবিবিএস, এফসিপিএস (শিশু), স্যার সলিমুল্লাহ মেডিকেল কলেজ",
+    experience: "১০+ বছর",
     image: "/doctors/doctor3.jpg",
-    available: "Mon, Tue, Thu"
+    available: "রবিবার, মঙ্গলবার, শুক্রবার"
   },
   {
     id: 4,
-    name: "Dr. James Wilson",
-    specialty: "Orthopedics",
-    education: "MD, Yale University",
-    experience: "18+ years",
+    name: "ডা. রাশেদুল করিম",
+    specialty: "অর্থোপেডিক্স",
+    education: "এমবিবিএস, এমএস (অর্থোপেডিক্স), চট্টগ্রাম মেডিকেল কলেজ",
+    experience: "১৮+ বছর",
     image: "/doctors/doctor4.jpg",
-    available: "Wed, Fri, Sat"
+    available: "বুধবার, বৃহস্পতিবার, শনিবার"
   }
 ];
 
 export const branches = [
   {
     id: 1,
-    name: "MediCare Main Hospital",
-    address: "123 Healing Street, Wellness City, WC 12345",
-    phone: "+1 (555) 123-4567",
-    email: "main@medicarehospital.com",
-    coordinates: { lat: 40.7128, lng: -74.0060 }, // New York coordinates as placeholder
-    services: ["Emergency", "Surgery", "Outpatient", "Laboratory"]
+    name: "হ্যাপি হেলথ প্রধান শাখা",
+    address: "১২৩ শান্তি সড়ক, ধানমন্ডি, ঢাকা-১২০৯",
+    phone: "+৮৮০ ১৭১১-১২৩৪৫৬",
+    email: "main@happyhealthhospital.com",
+    coordinates: { lat: 23.7465, lng: 90.3760 }, // ঢাকা কো-অর্ডিনেটস (ডেমো)
+    services: ["জরুরি", "সার্জারি", "বহির্বিভাগ", "ল্যাবরেটরি"]
   },
   {
     id: 2,
-    name: "MediCare Downtown Clinic",
-    address: "456 Care Avenue, Wellness City, WC 12345",
-    phone: "+1 (555) 234-5678",
-    email: "downtown@medicarehospital.com",
-    coordinates: { lat: 34.0522, lng: -118.2437 }, // Los Angeles coordinates as placeholder
-    services: ["Outpatient", "Laboratory", "Imaging"]
+    name: "হ্যাপি হেলথ চট্টগ্রাম শাখা",
+    address: "৪৫৬ বন্দর রোড, চট্টগ্রাম-৪০০০",
+    phone: "+৮৮০ ১৮১২-৩৪৫৬৭৮",
+    email: "ctg@happyhealthhospital.com",
+    coordinates: { lat: 22.3569, lng: 91.7832 }, // চট্টগ্রাম কো-অর্ডিনেটস (ডেমো)
+    services: ["বহির্বিভাগ", "ল্যাবরেটরি", "ইমেজিং"]
   },
   {
     id: 3,
-    name: "MediCare Children's Center",
-    address: "789 Hope Road, Wellness City, WC 12345",
-    phone: "+1 (555) 345-6789",
-    email: "children@medicarehospital.com",
-    coordinates: { lat: 41.8781, lng: -87.6298 }, // Chicago coordinates as placeholder
-    services: ["Pediatrics", "Vaccination", "Child Development"]
+    name: "হ্যাপি হেলথ শিশু কেন্দ্র",
+    address: "৭৮৯ শিশু সড়ক, রাজশাহী-৬২০০",
+    phone: "+৮৮০ ১৯১৩-৪৫৬৭৮৯",
+    email: "children@happyhealthhospital.com",
+    coordinates: { lat: 24.3745, lng: 88.6042 }, // রাজশাহী কো-অর্ডিনেটস (ডেমো)
+    services: ["শিশু বিভাগ", "টিকাদান", "শিশু বিকাশ"]
   }
 ];
 
 export const statistics = {
-  patients: "50,000+",
-  doctors: "200+",
-  beds: "500+",
-  satisfaction: "98%",
-  awards: "25+",
-  experience: "35+ years"
+  patients: "৫০,০০০+",
+  doctors: "২০০+",
+  beds: "৫০০+",
+  satisfaction: "৯৮%",
+  awards: "২৫+",
+  experience: "৩৫+ বছর"
 };
 
 export const campaigns = [
   {
     id: 1,
-    title: "Free Health Checkup Camp",
-    description: "Get a comprehensive health checkup including basic blood tests, BMI, and consultation.",
-    date: "June 15-20, 2025",
+    title: "বিনামূল্যে স্বাস্থ্য পরীক্ষা ক্যাম্প",
+    description: "বেসিক রক্ত পরীক্ষা, বিএমআই ও পরামর্শসহ সম্পূর্ণ স্বাস্থ্য পরীক্ষা করুন।",
+    date: "১৫-২০ জুন, ২০২৫",
     image: "/campaigns/checkup.jpg",
-    category: "Health Camp"
+    category: "স্বাস্থ্য ক্যাম্প"
   },
   {
     id: 2,
-    title: "50% Off on Cardiac Screening",
-    description: "Special discount on complete cardiac screening package. Limited time offer.",
-    date: "July 1-15, 2025",
+    title: "কার্ডিয়াক স্ক্রিনিং-এ ৫০% ছাড়",
+    description: "সম্পূর্ণ কার্ডিয়াক স্ক্রিনিং প্যাকেজে বিশেষ ছাড়। সীমিত সময়ের জন্য।",
+    date: "১-১৫ জুলাই, ২০২৫",
     image: "/campaigns/cardiac.jpg",
-    category: "Discount"
+    category: "ছাড়"
   },
   {
     id: 3,
-    title: "Diabetes Awareness Workshop",
-    description: "Join our experts for a free workshop on diabetes management and prevention.",
-    date: "August 5, 2025",
+    title: "ডায়াবেটিস সচেতনতা কর্মশালা",
+    description: "ডায়াবেটিস ব্যবস্থাপনা ও প্রতিরোধ নিয়ে আমাদের বিশেষজ্ঞদের সাথে বিনামূল্যে কর্মশালায় যোগ দিন।",
+    date: "৫ আগস্ট, ২০২৫",
     image: "/campaigns/diabetes.jpg",
-    category: "Workshop"
+    category: "কর্মশালা"
   }
 ];
 
 export const jobs = [
   {
     id: 1,
-    title: "Senior Cardiologist",
-    department: "Cardiology",
-    type: "Full-time",
-    experience: "Minimum 10 years",
-    education: "MD/MS in Cardiology",
-    description: "We are seeking an experienced Cardiologist to join our team of healthcare professionals...",
-    posted: "2025-05-01",
-    deadline: "2025-06-15"
+    title: "সিনিয়র কার্ডিওলজিস্ট",
+    department: "কার্ডিওলজি",
+    type: "পূর্ণকালীন",
+    experience: "সর্বনিম্ন ১০ বছর",
+    education: "এমডি/এমএস (কার্ডিওলজি)",
+    description: "আমরা আমাদের স্বাস্থ্যসেবা টিমে একজন অভিজ্ঞ কার্ডিওলজিস্ট খুঁজছি...",
+    posted: "২০২৫-০৫-০১",
+    deadline: "২০২৫-০৬-১৫"
   },
   {
     id: 2,
-    title: "Registered Nurse",
-    department: "General Ward",
-    type: "Full-time",
-    experience: "Minimum 2 years",
-    education: "BSc in Nursing",
-    description: "Looking for compassionate registered nurses to provide quality patient care...",
-    posted: "2025-05-05",
-    deadline: "2025-06-10"
+    title: "রেজিস্টার্ড নার্স",
+    department: "সাধারণ ওয়ার্ড",
+    type: "পূর্ণকালীন",
+    experience: "সর্বনিম্ন ২ বছর",
+    education: "বিএসসি (নার্সিং)",
+    description: "সহানুভূতিশীল রেজিস্টার্ড নার্স খুঁজছি, যারা মানসম্পন্ন রোগীসেবা প্রদান করবেন...",
+    posted: "২০২৫-০৫-০৫",
+    deadline: "২০২৫-০৬-১০"
   },
   {
     id: 3,
-    title: "Lab Technician",
-    department: "Pathology",
-    type: "Full-time",
-    experience: "Minimum 3 years",
-    education: "Diploma/Degree in Medical Laboratory Technology",
-    description: "Seeking skilled lab technicians to perform various diagnostic tests...",
-    posted: "2025-05-10",
-    deadline: "2025-06-20"
+    title: "ল্যাব টেকনিশিয়ান",
+    department: "প্যাথলজি",
+    type: "পূর্ণকালীন",
+    experience: "সর্বনিম্ন ৩ বছর",
+    education: "ডিপ্লোমা/ডিগ্রি (মেডিকেল ল্যাবরেটরি টেকনোলজি)",
+    description: "বিভিন্ন ডায়াগনস্টিক টেস্ট পরিচালনার জন্য দক্ষ ল্যাব টেকনিশিয়ান খুঁজছি...",
+    posted: "২০২৫-০৫-১০",
+    deadline: "২০২৫-০৬-২০"
   },
   {
     id: 4,
-    title: "Administrative Assistant",
-    department: "Administration",
-    type: "Full-time",
-    experience: "Minimum 2 years",
-    education: "Bachelor's degree in any discipline",
-    description: "Looking for an organized and efficient Administrative Assistant to support hospital operations...",
-    posted: "2025-05-12",
-    deadline: "2025-06-25"
+    title: "অ্যাডমিনিস্ট্রেটিভ অ্যাসিস্ট্যান্ট",
+    department: "প্রশাসন",
+    type: "পূর্ণকালীন",
+    experience: "সর্বনিম্ন ২ বছর",
+    education: "যেকোনো বিষয়ে স্নাতক ডিগ্রি",
+    description: "হাসপাতালের কার্যক্রমে সহায়তার জন্য সংগঠিত ও দক্ষ অ্যাডমিনিস্ট্রেটিভ অ্যাসিস্ট্যান্ট খুঁজছি...",
+    posted: "২০২৫-০৫-১২",
+    deadline: "২০২৫-০৬-২৫"
   }
 ];
 
 export const testimonials = [
   {
     id: 1,
-    name: "John Smith",
-    comment: "The care I received at MediCare Hospital was exceptional. The doctors were knowledgeable and the staff was very attentive.",
+    name: "মো. আব্দুল্লাহ",
+    comment: "হ্যাপি হেলথ হাসপাতালে চিকিৎসা নিয়ে আমি খুবই সন্তুষ্ট। ডাক্তার ও নার্সরা আন্তরিক এবং সেবামূলক।",
     rating: 5,
-    date: "2025-03-15"
+    date: "২০২৫-০৩-১৫"
   },
   {
     id: 2,
-    name: "Maria Garcia",
-    comment: "I was nervous about my surgery, but the team at MediCare made me feel comfortable and supported throughout the process.",
+    name: "সাবিনা ইয়াসমিন",
+    comment: "আমার মায়ের অপারেশনের সময় হাসপাতালের টিম সবসময় পাশে ছিল। পরিবেশ ও পরিষেবা চমৎকার।",
     rating: 5,
-    date: "2025-04-02"
+    date: "২০২৫-০৪-০২"
   },
   {
     id: 3,
-    name: "Robert Johnson",
-    comment: "The pediatric department took great care of my son. The child-friendly environment made his stay much easier.",
+    name: "রাশেদুল ইসলাম",
+    comment: "শিশু বিভাগের চিকিৎসকরা আমার সন্তানের জন্য খুব যত্নবান ছিলেন। ধন্যবাদ হ্যাপি হেলথ হাসপাতাল।",
     rating: 4,
-    date: "2025-04-18"
+    date: "২০২৫-০৪-১৮"
   }
 ];

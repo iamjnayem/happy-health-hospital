@@ -8,9 +8,11 @@ const DepartmentsSection = () => {
     <section id="departments" className="section-padding">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="heading-lg text-hospital-primary mb-4">Our Departments</h2>
+          <h2 className="heading-lg text-hospital-primary mb-4">
+            আমাদের বিভাগসমূহ
+          </h2>
           <p className="text-gray-600">
-            Our hospital features specialized departments with expert teams dedicated to providing comprehensive care across medical fields.
+            আমাদের হাসপাতালের প্রতিটি বিভাগে রয়েছে বিশেষজ্ঞ চিকিৎসক ও আধুনিক সুবিধা, যা সর্বোচ্চ মানের চিকিৎসা সেবা নিশ্চিত করে।
           </p>
         </div>
         
@@ -38,23 +40,33 @@ const DepartmentsSection = () => {
                   <h3 className="text-2xl font-bold text-hospital-primary mb-4">{dept.name}</h3>
                   <p className="mb-6 text-gray-600">{dept.description}</p>
                   
-                  <h4 className="font-bold mb-3">Key Features:</h4>
+                  <h4 className="font-bold mb-3">
+                    প্রধান বৈশিষ্ট্যসমূহ:
+                  </h4>
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <div className="w-2 h-2 bg-hospital-primary rounded-full mr-3"></div>
-                      <span>Expert Specialists & Consultants</span>
+                      <span>
+                        বিশেষজ্ঞ চিকিৎসক ও পরামর্শদাতা
+                      </span>
                     </li>
                     <li className="flex items-center">
                       <div className="w-2 h-2 bg-hospital-primary rounded-full mr-3"></div>
-                      <span>State-of-the-art Equipment</span>
+                      <span>
+                        অত্যাধুনিক যন্ত্রপাতি
+                      </span>
                     </li>
                     <li className="flex items-center">
                       <div className="w-2 h-2 bg-hospital-primary rounded-full mr-3"></div>
-                      <span>Comprehensive Treatment Plans</span>
+                      <span>
+                        সমন্বিত চিকিৎসা পরিকল্পনা
+                      </span>
                     </li>
                     <li className="flex items-center">
                       <div className="w-2 h-2 bg-hospital-primary rounded-full mr-3"></div>
-                      <span>Supportive Patient Care</span>
+                      <span>
+                        সহায়ক রোগী সেবা
+                      </span>
                     </li>
                   </ul>
                 </div>
