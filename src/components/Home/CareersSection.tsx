@@ -11,9 +11,11 @@ const CareersSection = () => {
     <section id="careers" className="section-padding">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="heading-lg text-hospital-primary mb-4">Join Our Team</h2>
+          <h2 className="heading-lg text-hospital-primary mb-4">
+            আমাদের টিমে যোগ দিন
+          </h2>
           <p className="text-gray-600">
-            Explore career opportunities at MediCare Hospital and become part of our mission to provide exceptional healthcare.
+            মেডিকেয়ার হাসপাতালে ক্যারিয়ার গড়ুন এবং আমাদের অসাধারণ স্বাস্থ্যসেবা প্রদানের মিশনের অংশ হোন।
           </p>
         </div>
         
@@ -45,11 +47,15 @@ const CareersSection = () => {
                   
                   <div className="grid grid-cols-2 gap-4 mb-4">
                     <div>
-                      <p className="text-sm text-gray-500 mb-1">Experience</p>
+                      <p className="text-sm text-gray-500 mb-1">
+                        অভিজ্ঞতা
+                      </p>
                       <p className="font-medium">{job.experience}</p>
                     </div>
                     <div>
-                      <p className="text-sm text-gray-500 mb-1">Education</p>
+                      <p className="text-sm text-gray-500 mb-1">
+                        শিক্ষাগত যোগ্যতা
+                      </p>
                       <p className="font-medium">{job.education}</p>
                     </div>
                   </div>
@@ -59,10 +65,12 @@ const CareersSection = () => {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center text-sm text-gray-500">
                       <Calendar className="h-4 w-4 mr-2" />
-                      <span>{daysRemaining} days remaining</span>
+                      <span>
+                        {daysRemaining} দিন বাকি
+                      </span>
                     </div>
                     <Button className="bg-hospital-primary hover:bg-hospital-secondary">
-                      Apply Now
+                      আবেদন করুন
                     </Button>
                   </div>
                 </CardContent>
@@ -73,7 +81,7 @@ const CareersSection = () => {
         
         <div className="text-center mt-12">
           <Button variant="outline" className="border-hospital-primary text-hospital-primary hover:bg-hospital-primary hover:text-white">
-            View All Openings
+            সব চাকরি দেখুন
           </Button>
         </div>
       </div>
