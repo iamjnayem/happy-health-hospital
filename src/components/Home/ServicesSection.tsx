@@ -9,9 +9,11 @@ const ServicesSection = () => {
     <section id="services" className="section-padding bg-gray-50">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="heading-lg text-hospital-primary mb-4">Our Services</h2>
+          <h2 className="heading-lg text-hospital-primary mb-4">
+            আমাদের সেবা সমূহ
+          </h2>
           <p className="text-gray-600">
-            We provide a wide range of medical services to meet all your healthcare needs with the highest standards of quality and patient care.
+            আমরা সর্বোচ্চ মানের ও রোগীবান্ধব সেবার নিশ্চয়তা দিয়ে সকল ধরনের স্বাস্থ্যসেবা প্রদান করি।
           </p>
         </div>
         
@@ -38,7 +40,7 @@ const ServicesSection = () => {
                   href="#" 
                   className="text-hospital-primary font-medium flex items-center text-sm group-hover:underline"
                 >
-                  Learn More
+                  আরও জানুন
                   <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </a>
               </CardContent>
