@@ -58,9 +58,9 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
     // Simulate OTP sent
     setTimeout(() => {
       toast({
-        title: "OTP Sent!",
-        description: "A verification code has been sent to your phone.",
-      });
+        title: "ওটিপি পাঠানো হয়েছে!",
+        description: "আপনার ফোনে একটি যাচাইকরণ কোড পাঠানো হয়েছে।",
+            });
       setIsVerifying(false);
     }, 1500);
   };
@@ -77,9 +77,9 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
       setIsSubmitted(true);
       
       toast({
-        title: "Appointment Booked!",
-        description: "Your appointment has been successfully scheduled.",
-      });
+        title: "অ্যাপয়েন্টমেন্ট বুক হয়েছে!",
+        description: "আপনার অ্যাপয়েন্টমেন্ট সফলভাবে নির্ধারণ করা হয়েছে।",
+            });
       
       // Redirect to patient portal in a real app
       setTimeout(() => {
@@ -109,11 +109,11 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-[500px]">
         <DialogHeader>
-          <DialogTitle>{step === 1 ? "Book an Appointment" : "Verify OTP"}</DialogTitle>
+          <DialogTitle>{step === 1 ? "অ্যাপয়েন্টমেন্ট বুক করুন" : "ওটিপি যাচাই করুন"}</DialogTitle>
           <DialogDescription>
             {step === 1 
-              ? "Fill in your details to schedule an appointment with our specialists." 
-              : "Enter the verification code sent to your phone."
+              ? "আমাদের বিশেষজ্ঞদের সাথে অ্যাপয়েন্টমেন্ট নির্ধারণ করতে আপনার তথ্য পূরণ করুন।" 
+              : "আপনার ফোনে পাঠানো যাচাইকরণ কোডটি লিখুন।"
             }
           </DialogDescription>
         </DialogHeader>
@@ -122,13 +122,15 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
           <form onSubmit={handleContinue} className="space-y-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="space-y-2">
-                <Label htmlFor="name">Full Name</Label>
+                <Label htmlFor="name">
+                  পূর্ণ নাম
+                </Label>
                 <div className="relative">
                   <User className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
                   <Input
                     id="name"
                     name="name"
-                    placeholder="John Doe"
+                    placeholder="মোঃ আব্দুল কাদের"
                     className="pl-9"
                     value={formData.name}
                     onChange={handleChange}
@@ -138,13 +140,15 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
               </div>
               
               <div className="space-y-2">
-                <Label htmlFor="phone">Phone Number</Label>
+                <Label htmlFor="phone">
+                  ফোন নম্বর
+                </Label>
                 <div className="relative">
                   <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
                   <Input
                     id="phone"
                     name="phone"
-                    placeholder="+1 (555) 000-0000"
+                    placeholder="০১৭১২৩৪৫৬৭৮"
                     className="pl-9"
                     value={formData.phone}
                     onChange={handleChange}
@@ -155,7 +159,9 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
             </div>
             
             <div className="space-y-2">
-              <Label htmlFor="email">Email Address</Label>
+              <Label htmlFor="email">
+                ইমেইল ঠিকানা
+              </Label>
               <div className="relative">
                 <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
                 <Input
@@ -173,13 +179,17 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="space-y-2">
-                <Label htmlFor="department">Department</Label>
+                <Label htmlFor="department">
+                  বিভাগ
+                </Label>
                 <Select
                   value={formData.department}
                   onValueChange={(value) => handleSelectChange('department', value)}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder="Select Department" />
+                    <SelectValue
+                      placeholder="বিভাগ নির্বাচন করুন"
+                    />
                   </SelectTrigger>
                   <SelectContent>
                     {departments.map((dept) => (
@@ -192,14 +202,16 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
               </div>
               
               <div className="space-y-2">
-                <Label htmlFor="doctor">Doctor</Label>
+                <Label htmlFor="doctor">
+                  ডাক্তার
+                </Label>
                 <Select
                   value={formData.doctor}
                   onValueChange={(value) => handleSelectChange('doctor', value)}
                   disabled={!formData.department}
                 >
                   <SelectTrigger>
-                    <SelectValue placeholder={formData.department ? "Select Doctor" : "Select Department First"} />
+                    <SelectValue placeholder={formData.department ? "ডাক্তার নির্বাচন করুন" : "প্রথমে বিভাগ নির্বাচন করুন"} />
                   </SelectTrigger>
                   <SelectContent>
                     {filteredDoctors.map((doctor) => (
@@ -213,7 +225,9 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
             </div>
             
             <div className="space-y-2">
-              <Label>Preferred Date</Label>
+              <Label>
+                পছন্দের তারিখ
+              </Label>
               <Popover>
                 <PopoverTrigger asChild>
                   <Button
@@ -221,7 +235,9 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
                     className="w-full justify-start text-left font-normal"
                   >
                     <CalendarIcon className="mr-2 h-4 w-4" />
-                    {formData.date ? format(formData.date, 'PPP') : <span>Select date</span>}
+                    {formData.date ? format(formData.date, 'PPP') : <span>
+                      তারিখ নির্বাচন করুন
+                    </span>}
                   </Button>
                 </PopoverTrigger>
                 <PopoverContent className="w-auto p-0">
@@ -243,13 +259,15 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
             </div>
             
             <div className="space-y-2">
-              <Label htmlFor="message">Additional Information</Label>
+              <Label htmlFor="message">
+                অতিরিক্ত তথ্য
+              </Label>
               <div className="relative">
                 <FileText className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
                 <Textarea
                   id="message"
                   name="message"
-                  placeholder="Please share any specific concerns or requirements..."
+                  placeholder="আপনার নির্দিষ্ট কোনো সমস্যা বা অনুরোধ থাকলে এখানে লিখুন..."
                   className="min-h-[100px] pl-9"
                   value={formData.message}
                   onChange={handleChange}
@@ -258,7 +276,7 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
             </div>
             
             <Button type="submit" className="w-full bg-hospital-primary hover:bg-hospital-secondary">
-              Continue to Verification
+              যাচাইয়ের জন্য এগিয়ে যান
             </Button>
           </form>
         ) : (
@@ -268,7 +286,7 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
               <Input
                 id="otp"
                 name="otp"
-                placeholder="Enter the 6-digit code"
+                placeholder="৬-সংখ্যার কোড লিখুন"
                 className="text-center text-xl tracking-widest"
                 maxLength={6}
                 value={formData.otp}
@@ -276,7 +294,7 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
                 required
               />
               <p className="text-sm text-muted-foreground text-center">
-                A verification code has been sent to your phone number
+                আপনার ফোন নম্বরে একটি যাচাইকরণ কোড পাঠানো হয়েছে
               </p>
             </div>
             
@@ -285,7 +303,7 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
               className="w-full bg-hospital-primary hover:bg-hospital-secondary"
               disabled={isVerifying || isSubmitted}
             >
-              {isVerifying ? "Verifying..." : isSubmitted ? "Verified!" : "Verify & Book Appointment"}
+              {isVerifying ? "যাচাই করা হচ্ছে..." : isSubmitted ? "যাচাই সম্পন্ন!" : "যাচাই করুন ও অ্যাপয়েন্টমেন্ট বুক করুন"}
             </Button>
             
             <Button 
@@ -295,7 +313,7 @@ const AppointmentModal: React.FC<AppointmentModalProps> = ({ isOpen, onClose }) 
               onClick={() => setStep(1)}
               disabled={isVerifying || isSubmitted}
             >
-              Back to Form
+              ফর্মে ফিরে যান
             </Button>
           </form>
         )}
