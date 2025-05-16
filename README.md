@@ -38,7 +38,7 @@ A comprehensive hospital management system designed to streamline operations, im
 4. **Run the application:**
     # Start frontend
     npm start
-    ```
+    
 
 ## Contributing
 
