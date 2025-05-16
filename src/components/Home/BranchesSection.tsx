@@ -55,9 +55,11 @@ const BranchesSection = () => {
     <section id="branches" className="section-padding">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="heading-lg text-hospital-primary mb-4">Our Locations</h2>
+          <h2 className="heading-lg text-hospital-primary mb-4">
+            আমাদের শাখাসমূহ
+          </h2>
           <p className="text-gray-600">
-            Visit one of our conveniently located branches to access our comprehensive healthcare services.
+            আমাদের বিভিন্ন শাখায় গিয়ে সহজেই আমাদের সকল স্বাস্থ্যসেবা গ্রহণ করুন।
           </p>
         </div>
         
@@ -88,7 +90,9 @@ const BranchesSection = () => {
                 {/* Map */}
                 <div className="h-72 md:h-auto" id={`map-${branch.id}`}>
                   <div className="w-full h-full flex items-center justify-center bg-gray-200">
-                    {!mapApiLoaded && <p>Loading map...</p>}
+                    {!mapApiLoaded && <p>
+                      ম্যাপ লোড হচ্ছে...
+                    </p>}
                   </div>
                 </div>
                 
