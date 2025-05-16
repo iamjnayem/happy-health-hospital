@@ -1,53 +1,71 @@
-# Happy Health Hospital
+# 🏥 Happy Health Hospital - Public Website
 
-A comprehensive hospital management system designed to streamline operations, improve patient care, and enhance administrative efficiency.
+A modern, responsive public website for **Happy Health Hospital**, designed to inform, engage, and serve patients with seamless appointment booking and hospital insights.
 
-## Features
+This is the **public-facing portal** of the Hospital Management System.
 
-- Public website for Happy Health Hospital
-- Take Appointment Booking
-- Show Available Jobs for doctos
-- Show Hospital Related Info
+## 🌟 Key Features
 
+✅ **Hospital Information at a Glance**  
+- Display hospital name, address, phone number, and email.  
+- Showcase hospital branches with Google Maps integration.
 
-## Technologies Used
+✅ **Service & Department Listings**  
+- Comprehensive list of services offered.  
+- Departments categorized for easy navigation.
 
-- Frontend: [React.js]
-- Backend: [Fiber]
-- Database: [MySql]
-- Deployed: [Ngingx, VPS]
+✅ **Doctor Directory**  
+- List of doctors with specialty filters.  
+- Search and filter doctors by department or expertise.
 
-## Getting Started
+✅ **Hospital Insights & Statistics**  
+- Real-time counters for patient visits, doctor availability, and other key metrics.
 
-1. **Clone the repository:**
+✅ **Promotions & Campaigns**  
+- Highlight ongoing health campaigns, special offers, and promotions.
+
+✅ **Appointment Booking System**  
+- Simple appointment request form with OTP verification.  
+- Auto-redirect to the patient portal after successful OTP verification.
+
+## 🛠️ Technologies Used
+
+- **Frontend**: React.js  
+- **Backend**: Fiber (Go)  
+- **Database**: MySQL  
+- **Deployment**: NGINX on VPS
+
+## 🚀 Getting Started
+
+1. **Clone the Repository**
     ```bash
     git clone https://github.com/iamjnayem/happy-health-hospital.git
     cd happy-health-hospital
     ```
 
-2. **Install dependencies:**
+2. **Install Dependencies**
     ```bash
-
-    cd happy-health-hospital
     npm install
     ```
 
-3. **Configure environment variables:**  
-    Copy `.env.example` to `.env` and update as needed.
+3. **Configure Environment Variables**  
+    Copy `.env.example` to `.env` and update the necessary configurations.
 
-4. **Run the application:**
-    # Start frontend
+4. **Run the Application**
+    ```bash
     npm start
-    
+    ```
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Please open issues or submit pull requests for improvements.
+Contributions are highly welcome!  
+Please feel free to open issues or submit pull requests for improvements, bug fixes, or new features.
 
-## License
+## 📄 License
 
-[MIT](LICENSE)
+Distributed under the [MIT License](LICENSE).
 
-## Contact
+## 📬 Contact
 
-For questions or support, contact [iamj.nayem@gmail.com].
+For questions, feedback, or support:  
+📧 [iamj.nayem@gmail.com]
